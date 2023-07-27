@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 24px;
+  right: 32px;
+  cursor: pointer;
+  /* background-color: red; */
+}
+.icon span {
+  margin-right: 10px;
+  font-size: smaller;
+}
+
+.icon div img {
+  width: 28px;
+}
+
+main {
+  height: 100vh;
+  background-color: #ecf8ff;
+  display: flex;
+}
+
+main section {
+  margin: auto;
+  background-color: #fff;
+  width: 601px;
+  height: 228px;
+  padding: 35px 31px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0px 0px 48px 0px rgba(29, 161, 242, 0.2);
+  /* bayangan belum */
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 50px;
+}
+
+.user div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  margin-right: 22px;
+}
+
+/* .name {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+} */
+
+.name div:nth-child(1) {
+  font-weight: bold;
+}
+
+.name div:nth-child(2) {
+  opacity: 0.6;
+}
+
+.user > div:nth-child(2) {
+  align-self: center;
+  width: 30px;
+}
+
+.textUser p span {
+  color: #1da1f2;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.information div:nth-child(1) {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.information div:nth-child(1) div:nth-child(1) {
+  margin-right: 10px;
+}
